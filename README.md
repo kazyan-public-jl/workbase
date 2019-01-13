@@ -78,7 +78,9 @@ git push --mirror origin
 
 ## 参考
 
-参考: [モダンフロントエンド開発環境からVue.js環境までひと通り作ってみた](https://qiita.com/isihigameKoudai/items/520c1cb6540e0641a00c)
+- [モダンフロントエンド開発環境からVue.js環境までひと通り作ってみた](https://qiita.com/isihigameKoudai/items/520c1cb6540e0641a00c)
+- [既存のリポジトリから新規リポジトリを作成したい - teratail.com](https://teratail.com/questions/31714)
+
 
 ## 環境構築
 
