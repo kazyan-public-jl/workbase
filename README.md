@@ -29,6 +29,26 @@ localhost:8080
 
 以上。
 
+## 環境コピーの仕方
+
+### 履歴ごとコピーしたい場合の手順
+
+1. workbaseリポジトリを別名でcloneする
+```
+git clone https://github.com/kazyan-public-jl/workbase.git hogehoge
+```
+2. cloneしたフォルダに入る
+```
+cd hogehoge/
+```
+3. originのリモートURLを自分の意図したURLに変更する
+```
+git remote set-url origin https://github.com/some-other-username/hogehoge.git
+```
+4. 新しいリモートURLに設定したリポジトリに対して `--mirror` オプションをつけて `git push` する
+```
+git push --mirror origin
+```
 
 ## 目的
 
