@@ -1,0 +1,21 @@
+.
+├── README_env.md
+├── dest
+│   └── index.html
+├── package.json
+├── src
+│   ├── App.vue
+│   ├── index.js
+│   ├── pages
+│   │   ├── about.vue
+│   │   └── top.vue
+│   ├── route
+│   │   └── index.js
+│   └── store
+│       └── index.js
+├── tree.txt
+├── webpack.config.js
+├── yarn-error.log
+└── yarn.lock
+
+5 directories, 13 files
